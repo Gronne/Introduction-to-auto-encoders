@@ -34,7 +34,7 @@ def calc_mean_clusters(clusters_vectors):
 
 
 
-# ---------- Define Measurements ----------
+# -------------- Define Measurements --------------
 # Vector = [question x, question y]
 vec_a = [1, 3]
 vec_b = [2, 2]
@@ -71,7 +71,6 @@ print(f"Clusters: {clusters}")
 
 
 
-
-# -------------------- K-Mean clustering simplified --------------------
+# ---------- K-Mean clustering simplified ----------
 clusters = cluster.KMeans(n_clusters=n_clusters).fit(vectors).cluster_centers_
 print(clusters)
