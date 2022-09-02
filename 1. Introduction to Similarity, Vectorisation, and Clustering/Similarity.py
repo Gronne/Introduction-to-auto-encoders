@@ -25,7 +25,7 @@ def calc_similarities(vectors, dist_func):
 
 
 # ---------- Define Measurements ----------
-# Vector = [question x, question y]
+# Vector = [Fiction, life-journey]
 vec_a = [1, 3]
 vec_b = [2, 2]
 vec_c = [2, 3]
